@@ -64,16 +64,68 @@ nav a {
 
 /* Header niye kaj */
 
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
-.banner{
-    padding: 30px 30px  0px 150px;
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.banner .profile{
-        width: 500px;
+.banner .profile {
+    width: 500px;
+}
+
+.banner-welcome {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.banner-name {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+.banner-comment {
+    max-width: 500px;
+}
+
+/* main section */
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+/* about sectioner style */
+
+.about {
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px;
 }
